@@ -142,6 +142,34 @@ public class kkk {
 
         $x("//button[@class='btn btn-outline-primary'][2]").click();
 
+        $x("//*[@class='btn btn-secondary']").click();
+
+        sleep(500);
+        $x("//*[@placeholder='Логин (email)']").click();
+        actions().moveToElement($x("//*[@placeholder='Логин (email)']")).sendKeys("redison00x@yandex.ru").pause(500).sendKeys(Keys.chord(Keys.ENTER)).build().perform();
+
+        sleep(500);
+        $x("//*[@placeholder='Пароль']").click();
+        actions().moveToElement($x("//*[@placeholder='Пароль']")).sendKeys("TV23MD").pause(500).sendKeys(Keys.chord(Keys.ENTER)).build().perform();
+
+        $(new WithTextCaseInsensitive("Достоверное ")).click();
+
+        sleep(500);
+        $x("//*[@class='my-3 btn btn-secondary btn-block']").click();
+
+        $x("//*[@placeholder='Адрес регистрации']").click();
+        sleep(500);
+        actions().moveToElement($x("//*[@placeholder='Адрес регистрации']")).sendKeys("г Нижний Новгород, ул Ульянова, д 29, кв. 23").pause(500).sendKeys(Keys.DOWN, Keys.ENTER).pause(500).build().perform();
+        sleep(500);
+
+        $x("//*[@class='btn btn-secondary btn-block']").click();
+
+        sleep(500);
+        $(new WithTextCaseInsensitive("Страхователь подтверждает, ")).click();
+
+        $x("//*[@class='btn btn-secondary btn-block']").click();
+
+        sleep(30000);
 
         Configuration.holdBrowserOpen = true;
 
