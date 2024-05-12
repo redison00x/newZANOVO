@@ -22,7 +22,7 @@ public class kkk {
         sleep(500);
         $(new ByTextCaseInsensitive(allTheVariable.iSee)).click();
         sleep(500);
-
+        
         assertEquals (title(), allTheVariable.title, allTheVariable.wrong);
         Wait().until(ExpectedConditions.elementToBeClickable(By.xpath(allTheVariable.clicable))).click();
 
@@ -144,6 +144,19 @@ public class kkk {
 
         sleep(500);
         $x(allTheVariable.buttonNext3).click();
+
+        $x(allTheVariable.resident).click();
+
+        $x(allTheVariable.passport).click();
+        $x(allTheVariable.passportRF).click();
+
+        sleep(500);
+        $x(allTheVariable.seriaPassport).click();
+        actions().moveToElement($x(allTheVariable.seriaPassport)).sendKeys("4196").pause(500).sendKeys(Keys.chord(Keys.ENTER)).build().perform();
+
+        sleep(500);
+        $x(allTheVariable.numberPassport).click();
+        actions().moveToElement($x(allTheVariable.numberPassport)).sendKeys("4196").pause(500).sendKeys(Keys.chord(Keys.ENTER)).build().perform();
 
         $x(allTheVariable.registAddress).click();
         sleep(500);

@@ -46,6 +46,11 @@ public class allTheVariable {
     public final static String password = "//*[@placeholder='Пароль']";
     public final static String checkBox1 = "Даю ";
     public final static String buttonNext3 = "//*[@class='my-3 btn btn-secondary btn-block']";
+    public final static String resident = "//*[@class='w-100 btn btn-primary']";
+    public final static String passport = "//*[@class='SelectFieldInner__single-value css-1uccc91-singleValue']";
+    public final static String passportRF ="//div[text()='Паспорт гражданина РФ']";
+    public final static String seriaPassport = "//*[@placeholder='Серия']";
+    public final static String numberPassport = "//*[@placeholder='Номер']";
     public final static String registAddress = "//*[@placeholder='Адрес регистрации']";
     public final static String buttonNext4 = "//*[@class='btn btn-secondary btn-block']";
     public final static String checkBox2 ="Страхователь подтверждает, ";
