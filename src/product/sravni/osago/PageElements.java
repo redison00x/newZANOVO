@@ -72,7 +72,7 @@ public class PageElements {
 
     protected static final SelenideElement BUTTON_NEXT_1 = $x("//button[@class='btn btn-secondary']");
 
-    protected static final SelenideElement LIMITED = $(new WithTextCaseInsensitive(LIMITED_));
+    protected static final SelenideElement LIMITED = $(new WithTextCaseInsensitive(LIMITED_O));
 
     protected static final SelenideElement SURNAME = $x("//*[@name='content.insuredPerson.list[0].lastName']");
 

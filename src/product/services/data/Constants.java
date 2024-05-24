@@ -17,7 +17,7 @@ public class Constants {
 
     public static final String SCROLLTO1YEAR = "cрок страхования: 1 год";
 
-    public static final String LIMITED_ = "Ограниченное";
+    public static final String LIMITED_O = "Ограниченное";
 
     public static final String ENGINE_POWER_NUMBER = "87";
 
@@ -51,9 +51,9 @@ public class Constants {
 
     public static final String CHECKBOXGIVE = "Даю ";
 
-    public static final String LOGIN_ = "redison00x@yandex.ru";
+    public static final String LOGIN_L = "redison00x@yandex.ru";
 
-    public static final String PASSWORD_ =    "TV23MD";
+    public static final String PASSWORD_P =    "TV23MD";
 
     public static final String SERIA_PASSPORT_USER =   "4196";
 
