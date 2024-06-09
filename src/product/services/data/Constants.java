@@ -7,7 +7,7 @@ public class Constants {
 
     public static final String TITLE = "ОСАГО онлайн: калькулятор еОСАГО";
 
-    public static final String WRONG = "Не туда приперся";
+    public static final String WRONG = "Не тот путь";
 
     public static final String NOLICENSEPLATE = "Нет номера";
 
