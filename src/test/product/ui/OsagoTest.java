@@ -1,12 +1,10 @@
 package test.product.ui;
 
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import product.services.data.BeforeTests;
 
 import static product.sravni.osago.Calculate.*;
 
-public class OsagoTest extends BeforeTests {
+public class OsagoTest {
     private OsagoTest() {}
 
     @Test
