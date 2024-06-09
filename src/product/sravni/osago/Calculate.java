@@ -1,9 +1,6 @@
 package product.sravni.osago;
 
-import com.codeborne.selenide.Configuration;
-import org.openqa.selenium.Keys;
 import product.services.data.BeforeTests;
-
 import static com.codeborne.selenide.Selenide.*;
 import static product.services.data.Constants.*;
 import static product.services.data.Urls.RGS_OSAGO;
@@ -99,8 +96,5 @@ public class Calculate {
        elementClick(BUTTON_NEXT_5);
 
        sleep(SLEEP_END);
-
-       Configuration.holdBrowserOpen = true;
-
     }
 }
